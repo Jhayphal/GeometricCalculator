@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricCalculator", "GeometricCalculator\GeometricCalculator.csproj", "{8B7F610F-9AF9-48DF-BFD3-308B54B2BBAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricCalculatorTests", "GeometricCalculatorTests\GeometricCalculatorTests.csproj", "{3DBF6F79-B586-44D6-9164-9E1B2AE5BBEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sql", "Sql", "{AA2664D4-88A9-4127-98A6-C2F2B8F41828}"
+	ProjectSection(SolutionItems) = preProject
+		Report.sql = Report.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B7F610F-9AF9-48DF-BFD3-308B54B2BBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7F610F-9AF9-48DF-BFD3-308B54B2BBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7F610F-9AF9-48DF-BFD3-308B54B2BBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7F610F-9AF9-48DF-BFD3-308B54B2BBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBF6F79-B586-44D6-9164-9E1B2AE5BBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBF6F79-B586-44D6-9164-9E1B2AE5BBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBF6F79-B586-44D6-9164-9E1B2AE5BBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBF6F79-B586-44D6-9164-9E1B2AE5BBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54056A57-27CE-4D30-9C67-7168CE62151A}
+	EndGlobalSection
+EndGlobal
